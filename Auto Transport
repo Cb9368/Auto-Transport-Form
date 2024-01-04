@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Auto Transport</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Secure Auto Transport</h1>
+        <p>Your Trusted Partner for Hassle-Free Vehicle Transport</p>
+    </header>
+
+    <form action="https://forms.gle/Jebw81BmDqN3KHNNA" method="get">
+        <label for="pickupZip">Pickup Zip Code:</label>
+        <input type="text" id="pickupZip" name="entry.1234567890" required>
+
+        <label for="dropoffZip">Drop-off Zip Code:</label>
+        <input type="text" id="dropoffZip" name="entry.0987654321" required>
+
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="entry.1357924680" required>
+
+        <label for="make">Make:</label>
+        <input type="text" id="make" name="entry.2468013579" required>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="entry.9876543210" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="entry.1122334455" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="entry.6677889900" required>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="entry.1122334455" required>
+
+        <button type="submit">Get a Quote</button>
+    </form>
+
+</body>
+</html>
